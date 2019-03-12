@@ -21,11 +21,13 @@ Our brains already do this. The evolution and flourishment of our species is a b
 Many thinkers have proposed several ideas on how the brain might work and how to achieve this. John von Neumann first proposes an idea of this in his book The Computer and the Brain (1953).  He discusses how the brain can be viewed as a computing machine and enumerates several important differences between the brain and computers (processing speed, parallelism) and suggests directions for future research. Warren McCulloch and Walter Pitts, in 1943, propose the first computational model of a neuron, the Threshold Logic Unit (TLU) or Linear Threshold Unit (TLU).. Alan Turing, inspired by an infant’s brain proposes connectionist models that now we call neural networks. In his paper “Intelligent Machinery”, Turing describes randomly connected networks of artificial neurons that learn by reinforcing successful and useful links and discarding useless ones. 
 
 A lot of work has been done in this relatively new field of computing. Yet, we are far from truly understanding the workings of the human brain and replicating it.
+
 ****
 ### References
 * “Artificial Neuron.” Wikipedia, Wikimedia Foundation, 26 Feb. 2019, en.wikipedia.org/wiki/Artificial_neuron.
 * Lagandula, Akshay Chandra. “McCulloch-Pitts Neuron - Mankind's First Mathematical Model Of A Biological Neuron.” Towards Data Science, Towards Data Science, 24 July 2018, towardsdatascience.com/mcculloch-pitts-model-5fdf65ac5dd1.
 * McCulloch, W. and Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. Bulletin of Mathematical Biophysics, 5:115–133. [1]
 ****
+
 [Next](neuralAnatomy.md)  
 [Previous](introduction.md)
