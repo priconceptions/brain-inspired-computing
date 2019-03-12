@@ -22,8 +22,8 @@ A lot of work has been done in this relatively new field of computing. Yet, we a
 
 ****
 ### References
-* “Artificial Neuron.” Wikipedia, Wikimedia Foundation, 26 Feb. 2019, en.wikipedia.org/wiki/Artificial_neuron.
-* Lagandula, Akshay Chandra. “McCulloch-Pitts Neuron - Mankind's First Mathematical Model Of A Biological Neuron.” Towards Data Science, Towards Data Science, 24 July 2018, towardsdatascience.com/mcculloch-pitts-model-5fdf65ac5dd1.
+* “Artificial Neuron.” Wikipedia, Wikimedia Foundation, 26 Feb. 2019, <en.wikipedia.org/wiki/Artificial_neuron>.
+* Lagandula, Akshay Chandra. “McCulloch-Pitts Neuron - Mankind's First Mathematical Model Of A Biological Neuron.” Towards Data Science, Towards Data Science, 24 July 2018, <towardsdatascience.com/mcculloch-pitts-model-5fdf65ac5dd1>.
 * McCulloch, W. and Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. Bulletin of Mathematical Biophysics, 5:115–133. [1]
 ****
 
