@@ -1,6 +1,4 @@
-## Introduction
-
-****
+# Introduction
 
 Disclaimer: "If the human brain were so simple that we could understand it, we would be so simple that we couldn't." - Emerson M. Pugh.
 
