@@ -53,7 +53,7 @@ The movement of ions between the membrane can be explained by Fick's law of diff
 
 So, Fick's law can be mathematically described as follows:
 
-<img src="https://tex.s2cms.ru/svg/J%20%3D%20%7B%7B-D%7D%20%5Cdfrac%7B%5Cpartial%20%5Cvarphi%7D%7B%5Cpartial%20x%7D%7D" alt="J = {{-D} \dfrac{\partial \varphi}{\partial x}}" />
+<img src="https://tex.s2cms.ru/svg/J%20%3D%20%7B-D%20%5Cdfrac%7B%5Cpartial%20%5Cvarphi%7D%7B%5Cpartial%20x%7D%7D" alt="J = {-D \dfrac{\partial \varphi}{\partial x}}" />
 
 * *D* = diffusion coefficient
 * <img src="https://tex.s2cms.ru/svg/%7B%5Cvarphi%7D" alt="{\varphi}" /> = Concentration
