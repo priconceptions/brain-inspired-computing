@@ -2,7 +2,7 @@
 
 A neural cell is an entity that takes in input, processes the input, and produces an output. It can be thought of as an electric signal converter. A black box representation of a neural cell can be seen below:
 
-![alt text](/images/blackbox_neuron.png "The Biological Neuron - From Wikipedia (https://cdn-images-1.medium.com/max/2400/1*1Oh53dNdPITVnoOVGCCUFA.png)")
+![alt text](images/blackbox_neuron.png "The Biological Neuron - From Wikipedia (https://cdn-images-1.medium.com/max/2400/1*1Oh53dNdPITVnoOVGCCUFA.png)")
 
 A biological neuron is obviously more complicated but at its core, does the same thing as the neuron in the picture above.
 
