@@ -56,7 +56,7 @@ So, Fick's law can be mathematically described as follows:
 <img src="https://tex.s2cms.ru/svg/J%20%3D%20%7B-D%20%5Cdfrac%7B%5Cpartial%20%5Cvarphi%7D%7B%5Cpartial%20x%7D%7D" alt="J = {-D \dfrac{\partial \varphi}{\partial x}}" />
 
 * *D* = diffusion coefficient
-* <img src="https://tex.s2cms.ru/svg/%7B%5Cvarphi%7D" alt="{\varphi}" /> = Concentration
+* <img src="https://tex.s2cms.ru/svg/%5Cinline%20%7B%5Cvarphi%7D" alt="\inline {\varphi}" /> = Concentration
 * *x* = single dimension (position)
 
 This movement causes a change in the membrane potential. The membrane potential can be determined using the Nernst equation and the Goldman equation.
@@ -65,21 +65,21 @@ This movement causes a change in the membrane potential. The membrane potential 
 
 <img src="https://tex.s2cms.ru/svg/%7BE_%7Bx%7D%20%3D%20%7B%5Cdfrac%7BRT%7D%7BzF%7D%7D%20ln%7B%5Cdfrac%7B%5BX%5D_%7Boutside%7D%7D%7B%5BX%5D_%7Binside%7D%7D%7D" alt="{E_{x} = {\dfrac{RT}{zF}} ln{\dfrac{[X]_{outside}}{[X]_{inside}}}" />  
 
-   * <img src="https://tex.s2cms.ru/svg/E_%7Bx%7D" alt="E_{x}" /> = Membrane potential
-   * <img src="https://tex.s2cms.ru/svg/R" alt="R" /> = Gas constant (<img src="https://tex.s2cms.ru/svg/8.314471%20%5Cdfrac%20%7BJ%7D%20%7Bmol%7D" alt="8.314471 \dfrac {J} {mol}" />)
-   * <img src="https://tex.s2cms.ru/svg/T" alt="T" /> = Temperature (kelvin)
-   * <img src="https://tex.s2cms.ru/svg/z" alt="z" /> = Valence (charge of the ion <img src="https://tex.s2cms.ru/svg/x" alt="x" />)
-   * <img src="https://tex.s2cms.ru/svg/F" alt="F" /> = Faraday's constant (<img src="https://tex.s2cms.ru/svg/96%2C485.3415%20%5Cdfrac%20%7BC%7D%20%7Bmol%7D" alt="96,485.3415 \dfrac {C} {mol}" />)
-   * <img src="https://tex.s2cms.ru/svg/%5BX%5D_%7Boutside%2Finside%7D" alt="[X]_{outside/inside}" /> = Concentration of ion inside and outside the cell
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20E_%7Bx%7D" alt="\inline E_{x}" /> = Membrane potential
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%20R" alt="\inline  R" /> = Gas constant (<img src="https://tex.s2cms.ru/svg/%5Cinline%208.314471%20%5Cdfrac%20%7BJ%7D%20%7Bmol%7D" alt="\inline 8.314471 \dfrac {J} {mol}" />)
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%20T" alt="\inline  T" /> = Temperature (kelvin)
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20z" alt="\inline z" /> = Valence (charge of the ion <img src="https://tex.s2cms.ru/svg/%5Cinline%20x" alt="\inline x" />)
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20F" alt="\inline F" /> = Faraday's constant (<img src="https://tex.s2cms.ru/svg/%5Cinline%2096%2C485.3415%20%5Cdfrac%20%7BC%7D%20%7Bmol%7D" alt="\inline 96,485.3415 \dfrac {C} {mol}" />)
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%5BX%5D_%7Boutside%2Finside%7D" alt="\inline [X]_{outside/inside}" /> = Concentration of ion inside and outside the cell
 
 * Goldman Equation is derived from the Nernst equation:
 
 <img src="https://tex.s2cms.ru/svg/%7BV%20%3D%20%7B%5Cdfrac%7BRT%7D%7BF%7D%7D%20ln%7B%5Cdfrac%7BP%5E%7B%2B%7D_%7BNa%7D%5BNa%5E%2B%5D_%7Boutside%7D%20%2B%20P%5E%7B%2B%7D_%7BK%7D%5BK%5E%2B%5D_%7Boutside%7D%20%2B%20P%5E%7B-%7D_%7BCl%7D%5BCl%5E-%5D_%7Binside%7D%7D%7BP%5E%7B%2B%7D_%7BNa%7D%5BNa%5E%2B%5D_%7Binside%7D%20%2B%20P%5E%7B%2B%7D_%7BK%7D%5BK%5E%2B%5D_%7Binside%7D%20%2B%20P%5E%7B-%7D_%7BCl%7D%5BCl%5E-%5D_%7Boutside%7D%7D%7D" alt="{V = {\dfrac{RT}{F}} ln{\dfrac{P^{+}_{Na}[Na^+]_{outside} + P^{+}_{K}[K^+]_{outside} + P^{-}_{Cl}[Cl^-]_{inside}}{P^{+}_{Na}[Na^+]_{inside} + P^{+}_{K}[K^+]_{inside} + P^{-}_{Cl}[Cl^-]_{outside}}}" />  
 
-   * <img src="https://tex.s2cms.ru/svg/V" alt="V" /> = Membrane potential
-   * <img src="https://tex.s2cms.ru/svg/R" alt="R" /> = Gas constant (<img src="https://tex.s2cms.ru/svg/8.314471%20%5Cdfrac%20%7BJ%7D%20%7Bmol%7D" alt="8.314471 \dfrac {J} {mol}" />)
-   * <img src="https://tex.s2cms.ru/svg/T" alt="T" /> = Temperature (kelvin) 
-   * <img src="https://tex.s2cms.ru/svg/z" alt="z" /> = Valence (charge of the ion <img src="https://tex.s2cms.ru/svg/x" alt="x" />)
-   * <img src="https://tex.s2cms.ru/svg/F" alt="F" /> = Faraday's constant (<img src="https://tex.s2cms.ru/svg/96%2C485.3415%20%5Cdfrac%20%7BC%7D%20%7Bmol%7D" alt="96,485.3415 \dfrac {C} {mol}" />)
-   * <img src="https://tex.s2cms.ru/svg/%5BX%5D_%7Boutside%2Finside%7D" alt="[X]_{outside/inside}" /> = Concentration of the specific ion inside and outside the cell
-   * <img src="https://tex.s2cms.ru/svg/P%5E%7B%2B%7D_%7BK%7D%2C%20P%5E%7B%2B%7D_%7BNa%7D%2C%20P%5E%7B-%7D_%7BCl%7D" alt="P^{+}_{K}, P^{+}_{Na}, P^{-}_{Cl}" /> = 1, 0.03, 0.1 respectively. This is the permeability of a membrane to a prticular ion
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20V" alt="\inline V" /> = Membrane potential
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20R" alt="\inline R" /> = Gas constant (<img src="https://tex.s2cms.ru/svg/%5Cinline%208.314471%20%5Cdfrac%20%7BJ%7D%20%7Bmol%7D" alt="\inline 8.314471 \dfrac {J} {mol}" />)
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20T" alt="\inline T" /> = Temperature (kelvin) 
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20z" alt="\inline z" /> = Valence (charge of the ion <img src="https://tex.s2cms.ru/svg/%5Cinline%20x" alt="\inline x" />)
+   * <img src="https://tex.s2cms.ru/svg/F" alt="F" /> = Faraday's constant (<img src="https://tex.s2cms.ru/svg/%5Cinline%2096%2C485.3415%20%5Cdfrac%20%7BC%7D%20%7Bmol%7D" alt="\inline 96,485.3415 \dfrac {C} {mol}" />)
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%5BX%5D_%7Boutside%2Finside%7D" alt="\inline [X]_{outside/inside}" /> = Concentration of the specific ion inside and outside the cell
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20P%5E%7B%2B%7D_%7BK%7D%2C%20P%5E%7B%2B%7D_%7BNa%7D%2C%20P%5E%7B-%7D_%7BCl%7D" alt="\inline P^{+}_{K}, P^{+}_{Na}, P^{-}_{Cl}" /> = 1, 0.03, 0.1 respectively. This is the permeability of a membrane to a prticular ion
