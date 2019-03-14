@@ -15,7 +15,7 @@ The neuron is the basic computing unit in our bodies and is the building block o
 * **Dendrite**: The input receiver of a neuron-- receives electric signals from other neurons or other stimuli.
 * **Soma**: The cell body of the neuron-- contains all other neural organelles and processes information to send to other neurons.
 * **Axon**: A long projection of the nerve cell that conducts signals from the soma. The ends of an axon, the purple projection are called axon terminals.
-* **Synapse**: Transmits electrical signals from one neuron to other neurons.
+* **Synapse**: Space between neurons through which neurotransmitters transmit electrical signals from one neuron to other neurons.
 
 Basically, a neuron takes in input from the dendrites, processes them in the soma (which acts as a CPU unit), and sends an output through the axon. 
 
