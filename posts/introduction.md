@@ -6,7 +6,7 @@ Although we create algorithms that are inspired by the functionality of how our 
 
 ****
 
-Given that our knowledge of the brain is so limited, what are going to talk about in these notes and why even bother devoting so much time and effort towards this subject?
+Given that our knowledge of the brain is so limited, what are we going to talk about in these notes and why even bother devoting so much time and effort towards this subject?
 
 Brain-Inspired Computing is a discipline in computer science that aims to describe computational models of intelligent behavior and how they relate to brain function.
 
