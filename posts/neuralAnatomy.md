@@ -19,7 +19,7 @@ The neuron is the basic computing unit in our bodies and is the building block o
 
 Basically, a neuron takes in input from the dendrites, processes them in the soma (which acts as a CPU unit), and sends an output through the axon. 
 
-Bundles of fibers hold neurons together to form nerves. Under a microscope, if the fibers are myelinated (myelin is a protein that insulates the axon to enhance signal propogation) axons, they appear white, and therefore we call them white matter. On the other hand, if the fibers are somata and dendrites, they appear grey and we call them grey matter.
+Bundles of fibers hold neurons together to form nerves. Under a microscope, if the fibers are myelinated (myelin is a fatty substance that insulates the axon to enhance signal propogation) axons, they appear white, and therefore we call them white matter. On the other hand, areas of the fibers consist of somata and dendrites appear grey and we call them grey matter.
 
 The nervous system comprises of networks made from neurons and synapses, successively forming levels of computation to allow organisms to learn, act, and live. Sterratt, D., Graham, B., Gillies, A., & Willshaw, D. (2011) classify neuroscience into nine levels, shown below, based on size and function.
 
@@ -39,9 +39,9 @@ The nervous system comprises of networks made from neurons and synapses, success
 
 Much of the computational power that neurons possess lies in the electrical properties of the neurons. How do neurons generate this electrical power and send and receive electrical signals between each other?
 
-All cells are bathed in a fluid called **extracellular fluid**, which provides a stable environment for cells to operate. It contains water, some inorganic ions, three main cations-- Sodiumm (Na+ = 136–145 mEq/L), Potassium (K+ = 3.5–5.5 mEq/L), and Calcium (Ca2+ = 2.2–2.6 mEq/L), and two main anions-- Chloride (Cl− = 99–109 mEq/L), Hydrogen Carbonate (HCO3− 22–26 mM).
+All cells are bathed in a fluid called **extracellular fluid**, which provides a stable environment for cells to operate. It contains water, some inorganic ions, three main cations-- Sodium (Na+ = 136–145 mEq/L), Potassium (K+ = 3.5–5.5 mEq/L), and Calcium (Ca2+ = 2.2–2.6 mEq/L), and two main anions-- Chloride (Cl− = 99–109 mEq/L), Hydrogen Carbonate (HCO3− 22–26 mM).
 
-In addition to the extracellular fluid, cells contain a fluid called **intracellular fluid**, which contains ions, water, and inorganic ions as well. However, the ionic concentration differs widely from that of extracellular fluid, causing an electric potential difference. This electric potential difference across the cell membrane is called **membrane potential**. The resting membrane potential of a neuron is typically -65mV-- the potential inside the cell is more negative than the outside.
+In addition to the extracellular fluid, cells contain a fluid called **intracellular fluid**, which contains ions, water, and inorganic ions as well. However, the ionic concentration differs widely from that of extracellular fluid, causing an electric potential difference. This electric potential difference across the cell membrane is called **membrane potential**. The resting membrane potential of a neuron is typically -65mV where the potential inside the cell is more negative than the outside.
 
 Ions penetrate the membrane through **ion channels** or openings in the cell membrane. When ion channels are in an **open state**, ions from the extracellular fluid are allowed to enter the cell. These channels can either be **active channels**, which can open or close because of certain stimuli or **passive channels**, that does not change their permeability. A schematic representation of the neuronal membrane is shown below:
 
