@@ -43,7 +43,7 @@ All cells are bathed in a fluid called **extracellular fluid**, which provides a
 
 In addition to the extracellular fluid, cells contain a fluid called **intracellular fluid**, which contains ions, water, and inorganic ions as well. However, the ionic concentration differs widely from that of extracellular fluid, causing an electric potential difference. This electric potential difference across the cell membrane is called **membrane potential**. The resting membrane potential of a neuron is typically -65mV where the potential inside the cell is more negative than the outside.
 
-Ions penetrate the membrane through **ion channels** or openings in the cell membrane. When ion channels are in an **open state**, ions from the extracellular fluid are allowed to enter the cell. These channels can either be **active channels**, which can open or close because of certain stimuli or **passive channels**, that does not change their permeability. A schematic representation of the neuronal membrane is shown below:
+Ions penetrate the membrane through **ion channels** or openings in the cell membrane. When ion channels are in an **open state**, ions from the extracellular fluid are allowed to enter the cell. These channels can either be **active channels**, which can open or close because of certain stimuli or **passive channels**, which consistently remain permeable. A schematic representation of the neuronal membrane is shown below:
 
 ![alt text](ionicChannel.png)
 
