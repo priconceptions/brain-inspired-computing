@@ -2,7 +2,7 @@
 
 A neural cell is an entity that takes in input, processes the input, and produces an output. It can be thought of as an electric signal converter. A black box representation of a neural cell can be seen below:
 
-![ScreenShot](https://raw.githubusercontent.com/images/blackbox_neuron.png "The Biological Neuron - From Wikipedia (https://cdn-images-1.medium.com/max/2400/1*1Oh53dNdPITVnoOVGCCUFA.png)")
+![ScreenShot](images/blackbox_neuron.png)
 
 A biological neuron is obviously more complicated but at its core, does the same thing as the neuron in the picture above.
 
@@ -45,7 +45,7 @@ In addition to the extracellular fluid, cells contain a fluid called **intracell
 
 Ions penetrate the membrane through **ion channels** or openings in the cell membrane. When ion channels are in an **open state**, ions from the extracellular fluid are allowed to enter the cell. These channels can either be **active channels**, which can open or close because of certain stimuli or **passive channels**, that does not change their permeability. A schematic representation of the neuronal membrane is shown below:
 
-![ScreenShot](https://raw.githubusercontent.com/images/ionicChannel.png "A representation of Ionic Channels")
+![ScreenShot](images/ionicChannel.png)
 
 The movement of ions between the membrane can be explained by Fick's law of diffusion that says:  
 1. The flux (*J*) move from an area of high concentration to an area of low concentration.
