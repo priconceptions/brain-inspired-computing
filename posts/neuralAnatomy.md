@@ -2,7 +2,7 @@
 
 A neural cell is an entity that takes in input, processes the input, and produces an output. It can be thought of as an electric signal converter. A black box representation of a neural cell can be seen below:
 
-![ScreenShot](images/blackbox_neuron.png)
+![alt text](images/blackbox_neuron.png)
 
 A biological neuron is obviously more complicated but at its core, does the same thing as the neuron in the picture above.
 
@@ -12,7 +12,7 @@ A biological neuron is obviously more complicated but at its core, does the same
 
 The neuron is the basic computing unit in our bodies and is the building block of our nervous system.
 
-* **Dendrite**: The input receiver of a neuron-- receives electric signals from other neurons or other stimuli.
+* **Dendrite**: The input receiver of a neuron-- propogates the electrochemical stimulation received from other cells.
 * **Soma**: The cell body of the neuron-- contains all other neural organelles and processes information to send to other neurons.
 * **Axon**: A long projection of the nerve cell that conducts signals from the soma. The ends of an axon, the purple projection are called axon terminals.
 * **Synapse**: Space between neurons through which neurotransmitters transmit electrical signals from one neuron to other neurons.
@@ -45,7 +45,7 @@ In addition to the extracellular fluid, cells contain a fluid called **intracell
 
 Ions penetrate the membrane through **ion channels** or openings in the cell membrane. When ion channels are in an **open state**, ions from the extracellular fluid are allowed to enter the cell. These channels can either be **active channels**, which can open or close because of certain stimuli or **passive channels**, that does not change their permeability. A schematic representation of the neuronal membrane is shown below:
 
-![ScreenShot](images/ionicChannel.png)
+![alt text](images/ionicChannel.png)
 
 The movement of ions between the membrane can be explained by Fick's law of diffusion that says:  
 1. The flux (*J*) move from an area of high concentration to an area of low concentration.
