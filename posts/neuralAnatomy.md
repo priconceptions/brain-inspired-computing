@@ -19,7 +19,7 @@ The neuron is the basic computing unit in our bodies and is the building block o
 
 Basically, a neuron takes in input from the dendrites, processes them in the soma (which acts as a CPU unit), and sends an output through the axon. 
 
-Bundles of fibers hold neurons together to form nerves. Under a microscope, if the fibers are myelinated (insulated) axons, they appear white, and therefore we call them white matter. On the other hand, if the fibers are somata and dendrites, they appear grey and we call them grey matter.
+Bundles of fibers hold neurons together to form nerves. Under a microscope, if the fibers are myelinated (myelin is a protein that insulates the axon to enhance signal propogation) axons, they appear white, and therefore we call them white matter. On the other hand, if the fibers are somata and dendrites, they appear grey and we call them grey matter.
 
 The nervous system comprises of networks made from neurons and synapses, successively forming levels of computation to allow organisms to learn, act, and live. Sterratt, D., Graham, B., Gillies, A., & Willshaw, D. (2011) classify neuroscience into nine levels, shown below, based on size and function.
 
