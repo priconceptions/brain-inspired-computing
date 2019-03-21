@@ -2,7 +2,7 @@
 
 A neural cell is an entity that takes in input, processes the input, and produces an output. It can be thought of as an electric signal converter. A black box representation of a neural cell can be seen below:
 
-![alt text](https://user-images.githubusercontent.com/13342705/54393724-442c7300-4681-11e9-8182-43e32e6face5.PNG "BlackBox representation of a neuron")
+![alt text](blackbox_neuron.png)
 
 A biological neuron is obviously more complicated but at its core, does the same thing as the neuron in the picture above.
 
@@ -12,14 +12,14 @@ A biological neuron is obviously more complicated but at its core, does the same
 
 The neuron is the basic computing unit in our bodies and is the building block of our nervous system.
 
-* **Dendrite**: The input receiver of a neuron-- propogates the electrochemical stimulation received from other cells.
+* **Dendrite**: The input receiver of a neuron-- propagates the electrochemical stimulation received from other cells.
 * **Soma**: The cell body of the neuron-- contains all other neural organelles and processes information to send to other neurons.
 * **Axon**: A long projection of the nerve cell that conducts signals from the soma. The ends of an axon, the purple projection are called axon terminals.
 * **Synapse**: Space between neurons through which neurotransmitters transmit electrical signals from one neuron to other neurons.
 
 Basically, a neuron takes in input from the dendrites, processes them in the soma (which acts as a CPU unit), and sends an output through the axon. 
 
-Bundles of fibers hold neurons together to form nerves. Under a microscope, if the fibers are myelinated (myelin is a fatty substance that insulates the axon to enhance signal propogation) axons, they appear white, and therefore we call them white matter. On the other hand, areas of the fibers consist of somata and dendrites appear grey and we call them grey matter.
+Bundles of fibers hold neurons together to form nerves. Under a microscope, if the fibers are myelinated (myelin is a fatty substance that insulates the axon to enhance signal propagation) axons, they appear white, and therefore we call them white matter. On the other hand, areas of the fibers consist of somata and dendrites appear grey and we call them grey matter.
 
 The nervous system comprises of networks made from neurons and synapses, successively forming levels of computation to allow organisms to learn, act, and live. Sterratt, D., Graham, B., Gillies, A., & Willshaw, D. (2011) classify neuroscience into nine levels, shown below, based on size and function.
 
@@ -35,6 +35,12 @@ The nervous system comprises of networks made from neurons and synapses, success
 | Signalling pathway | 1 nm   | Link between connecting neurons                                           |
 | Ion Channels       | 1 pm   | Channels that act as gateway causing voltage change                       |
 
+Santiago Ramón y Cajal, a Spanish neuroscientist, won the Nobel Prize in Physiology or Medicine for first investigating the microscopic structure of the human brain and for discovering that the relationship between nerve cells was not continuous, but contiguous. This is now widely considered the basis of modern neuroscience.
+
+Now, we can see neurons taking many different forms based on their functions:
+
+![neuronTypes](https://user-images.githubusercontent.com/13342705/54726810-0cbf3a00-4b4b-11e9-90e3-397a807b7e30.PNG)
+
 #### Elements of Neuron Electrophysiology
 
 Much of the computational power that neurons possess lies in the electrical properties of the neurons. How do neurons generate this electrical power and send and receive electrical signals between each other?
@@ -43,9 +49,9 @@ All cells are bathed in a fluid called **extracellular fluid**, which provides a
 
 In addition to the extracellular fluid, cells contain a fluid called **intracellular fluid**, which contains ions, water, and inorganic ions as well. However, the ionic concentration differs widely from that of extracellular fluid, causing an electric potential difference. This electric potential difference across the cell membrane is called **membrane potential**. The resting membrane potential of a neuron is typically -65mV where the potential inside the cell is more negative than the outside.
 
-Ions penetrate the membrane through **ion channels** or openings in the cell membrane. When ion channels are in an **open state**, ions from the extracellular fluid are allowed to enter the cell. These channels can either be **active channels**, which can open or close because of certain stimuli or **passive channels**, which consistently remain permeable. A schematic representation of the neuronal membrane is shown below:
+Ions penetrate the membrane through **ion channels** or openings in the cell membrane. When ion channels are in an **open state**, ions from the extracellular fluid are allowed to enter the cell. These channels can either be **active channels**, which can open or close because of certain stimuli or **passive channels**, which consistently remain. A schematic representation of the neuronal membrane is shown below:
 
-![alt text](https://user-images.githubusercontent.com/13342705/54393725-442c7300-4681-11e9-88f8-a5ba8a1024ee.PNG "Ionic Channel")
+![alt text](ionicChannel.png)
 
 The movement of ions between the membrane can be explained by Fick's law of diffusion that says:  
 1. The flux (*J*) move from an area of high concentration to an area of low concentration.
@@ -82,4 +88,6 @@ This movement causes a change in the membrane potential. The membrane potential 
    * <img src="https://tex.s2cms.ru/svg/%5Cinline%20z" alt="\inline z" /> = Valence (charge of the ion <img src="https://tex.s2cms.ru/svg/%5Cinline%20x" alt="\inline x" />)
    * <img src="https://tex.s2cms.ru/svg/F" alt="F" /> = Faraday's constant (<img src="https://tex.s2cms.ru/svg/%5Cinline%2096%2C485.3415%20%5Cdfrac%20%7BC%7D%20%7Bmol%7D" alt="\inline 96,485.3415 \dfrac {C} {mol}" />)
    * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%5BX%5D_%7Boutside%2Finside%7D" alt="\inline [X]_{outside/inside}" /> = Concentration of the specific ion inside and outside the cell
-   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20P%5E%7B%2B%7D_%7BK%7D%2C%20P%5E%7B%2B%7D_%7BNa%7D%2C%20P%5E%7B-%7D_%7BCl%7D" alt="\inline P^{+}_{K}, P^{+}_{Na}, P^{-}_{Cl}" /> = 1, 0.03, 0.1 respectively. This is the permeability of a membrane to a prticular ion
+   * <img src="https://tex.s2cms.ru/svg/%5Cinline%20P%5E%7B%2B%7D_%7BK%7D%2C%20P%5E%7B%2B%7D_%7BNa%7D%2C%20P%5E%7B-%7D_%7BCl%7D" alt="\inline P^{+}_{K}, P^{+}_{Na}, P^{-}_{Cl}" /> = 1, 0.03, 0.1 respectively. This is the permeability of a membrane to a particular ion
+
+The above equations explain the membrane potential as a function of the concentration of particular ions inside and outside the cell. When the membrane potential exceeds a certain threshold, a spike occurs. A couple of models discussed in the next article address this mechanism. How is information encoded and decoded in these spikes? The following articles will discuss this also.
