@@ -90,3 +90,6 @@ This movement causes a change in the membrane potential. The membrane potential 
    * <img src="https://tex.s2cms.ru/svg/%5Cinline%20P%5E%7B%2B%7D_%7BK%7D%2C%20P%5E%7B%2B%7D_%7BNa%7D%2C%20P%5E%7B-%7D_%7BCl%7D" alt="\inline P^{+}_{K}, P^{+}_{Na}, P^{-}_{Cl}" /> = 1, 0.03, 0.1 respectively. This is the permeability of a membrane to a particular ion
 
 The above equations explain the membrane potential as a function of the concentration of particular ions inside and outside the cell. When the membrane potential exceeds a certain threshold, a spike occurs. A couple of models discussed in the next article address this mechanism. How is information encoded and decoded in these spikes? The following articles will discuss this also.
+
+[Next](neuralModels.md)
+[Previous](neuralAnatomy.md)  
