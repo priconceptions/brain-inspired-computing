@@ -62,15 +62,15 @@ Of all the previous models, this is the most biologically plausible. The model i
 
 <img src="https://tex.s2cms.ru/svg/C_%7Bm%7D%20%5Cfrac%20%7Bdv%7D%7Bdt%7D%20%3D%20I%20-%20g_%7BNa%7Dm%5E3h(v%20-%20v_%7BNa%7D)%20-%20g_%7BK%7Dn%5E4(v%20-%20v_K)%20-%20g_L(v%20-%20v_L)" alt="C_{m} \frac {dv}{dt} = I - g_{Na}m^3h(v - v_{Na}) - g_{K}n^4(v - v_K) - g_L(v - v_L)" />
 
-* <img src="https://tex.s2cms.ru/svg/g_%7BNa%7D%2C%20g_%7BK%7D%2C%20and%20g_L" alt="g_{Na}, g_{K}, and g_L" /> are conductances (the inverse resitances of Na, K, and Cl respectively
+* <img src="https://tex.s2cms.ru/svg/g_%7BNa%7D%2C%20g_%7BK%7D%2C%20and%20%20g_L" alt="g_{Na}, g_{K}, and  g_L" /> are conductances (the inverse resitances of Na, K, and Cl respectively
 * <img src="https://tex.s2cms.ru/svg/(v%20-%20v_%7Bx%7D)" alt="(v - v_{x})" /> is the difference between the membrane voltage and the equilibrium voltage <img src="https://tex.s2cms.ru/svg/v_%7Bx%7D" alt="v_{x}" />, where <img src="https://tex.s2cms.ru/svg/x" alt="x" /> is either Na, K, or Cl
 * <img src="https://tex.s2cms.ru/svg/n%2C%20m%2C%20and%20h" alt="n, m, and h" /> are dimensionless quantities whose variation with time after a change in membrane potential is determined by:
-    * <img src="https://tex.s2cms.ru/svg/%5Cfrac%20%7Bdn%7D%7Bdt%7D%20%3D%20%5Calpha_%7Bn%7D(1-n)%20-%20%5Cbeta_%7Bn%7Dn" alt="\frac {dn}{dt} = \alpha_{n}(1-n) - \beta_{n}n" /> 
-        * <img src="https://tex.s2cms.ru/svg/%5Calpha_%7Bn%7D%20%3D%20%5Cfrac%20%7B0.01(v%2B10)%7D%20%7Be%5E%7B%5Cfrac%7Bv%2B10%7D%7B10%7D%7D%20-%201%7D" alt="\alpha_{n} = \frac {0.01(v+10)} {e^{\frac{v+10}{10}} - 1}" /> and <img src="https://tex.s2cms.ru/svg/%5Cbeta_%7Bn%7D%20%3D%200.125e%5E%7Bv%2F80%7D" alt="\beta_{n} = 0.125e^{v/80}" />
-    * <img src="https://tex.s2cms.ru/svg/%5Cfrac%20%7Bdm%7D%7Bdt%7D%20%3D%20%5Calpha_%7Bm%7D(1-m)%20-%20%5Cbeta_%7Bm%7Dm" alt="\frac {dm}{dt} = \alpha_{m}(1-m) - \beta_{m}m" />
-        * <img src="https://tex.s2cms.ru/svg/%5Calpha_%7Bm%7D%20%3D%20%5Cfrac%20%7B0.1(v%2B25)%7D%7Be%5E%7B%5Cfrac%20%7Bv%2B25%7D%7B10%7D%7D%20-%201%7D" alt="\alpha_{m} = \frac {0.1(v+25)}{e^{\frac {v+25}{10}} - 1}" /> and <img src="https://tex.s2cms.ru/svg/%5Cbeta_%7Bm%7D%20%3D%204e%5E%7Bv%2F18%7D" alt="\beta_{m} = 4e^{v/18}" />
-    * <img src="https://tex.s2cms.ru/svg/%5Cfrac%20%7Bdh%7D%7Bdt%7D%20%3D%20%5Calpha_%7Bh%7D(1-h)%20-%20%5Cbeta_%7Bh%7Dh" alt="\frac {dh}{dt} = \alpha_{h}(1-h) - \beta_{h}h" />
-        * <img src="https://tex.s2cms.ru/svg/%5Calpha_%7Bh%7D%20%3D%200.07e%5E%7Bv%2F20%7D" alt="\alpha_{h} = 0.07e^{v/20}" /> and <img src="https://tex.s2cms.ru/svg/%5Cbeta_%7Bh%7D%20%3D%20%5Cfrac%20%7B1%7D%7Be%5E%7B%5Cfrac%20%7Bv%2B30%7D%7B10%7D%7D%20%2B%201%7D" alt="\beta_{h} = \frac {1}{e^{\frac {v+30}{10}} + 1}" />
+    * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%7B%5Cfrac%20%7Bdn%7D%7Bdt%7D%20%3D%20%5Calpha_%7Bn%7D(1-n)%20-%20%5Cbeta_%7Bn%7Dn%7D" alt="\inline {\frac {dn}{dt} = \alpha_{n}(1-n) - \beta_{n}n}" /> 
+        * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%7B%5Calpha_%7Bn%7D%20%3D%20%5Cfrac%20%7B0.01(v%2B10)%7D%20%7Be%5E%7B%5Cfrac%7Bv%2B10%7D%7B10%7D%7D%20-%201%7D%7D" alt="\inline {\alpha_{n} = \frac {0.01(v+10)} {e^{\frac{v+10}{10}} - 1}}" /> and <img src="https://tex.s2cms.ru/svg/%5Cinline%7B%5Cbeta_%7Bn%7D%20%3D%200.125e%5E%7Bv%2F80%7D%7D" alt="\inline{\beta_{n} = 0.125e^{v/80}}" />
+    * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%7B%5Cfrac%20%7Bdm%7D%7Bdt%7D%20%3D%20%5Calpha_%7Bm%7D(1-m)%20-%20%5Cbeta_%7Bm%7Dm%7D" alt="\inline {\frac {dm}{dt} = \alpha_{m}(1-m) - \beta_{m}m}" />
+        * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%7B%5Calpha_%7Bm%7D%20%3D%20%5Cfrac%20%7B0.1(v%2B25)%7D%7Be%5E%7B%5Cfrac%20%7Bv%2B25%7D%7B10%7D%7D%20-%201%7D%7D" alt="\inline {\alpha_{m} = \frac {0.1(v+25)}{e^{\frac {v+25}{10}} - 1}}" /> and <img src="https://tex.s2cms.ru/svg/%5Cinline%20%7B%5Cbeta_%7Bm%7D%20%3D%204e%5E%7Bv%2F18%7D%7D" alt="\inline {\beta_{m} = 4e^{v/18}}" />
+    * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%7B%5Cfrac%20%7Bdh%7D%7Bdt%7D%20%3D%20%5Calpha_%7Bh%7D(1-h)%20-%20%5Cbeta_%7Bh%7Dh%7D" alt="\inline {\frac {dh}{dt} = \alpha_{h}(1-h) - \beta_{h}h}" />
+        * <img src="https://tex.s2cms.ru/svg/%5Cinline%20%7B%5Calpha_%7Bh%7D%20%3D%200.07e%5E%7Bv%2F20%7D%7D" alt="\inline {\alpha_{h} = 0.07e^{v/20}}" /> and <img src="https://tex.s2cms.ru/svg/%5Cinline%20%7B%5Cbeta_%7Bh%7D%20%3D%20%5Cfrac%20%7B1%7D%7Be%5E%7B%5Cfrac%20%7Bv%2B30%7D%7B10%7D%7D%20%2B%201%7D%7D" alt="\inline {\beta_{h} = \frac {1}{e^{\frac {v+30}{10}} + 1}}" />
 
 
 
