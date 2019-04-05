@@ -92,4 +92,4 @@ This movement causes a change in the membrane potential. The membrane potential 
 The above equations explain the membrane potential as a function of the concentration of particular ions inside and outside the cell. When the membrane potential exceeds a certain threshold, a spike occurs. A couple of models discussed in the next article address this mechanism. How is information encoded and decoded in these spikes? The following articles will discuss this also.
 
 [Next](neuralModels.md)
-[Previous](neuralAnatomy.md)  
+[Previous](introduction.md)  
