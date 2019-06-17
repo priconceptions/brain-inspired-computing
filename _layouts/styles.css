@@ -25,7 +25,7 @@
     background: #55ACEE;
     color: white;
   }
-  wrapper {
+div.wrapper {
     width: 1060px;
     margin: 0 auto;
 }
