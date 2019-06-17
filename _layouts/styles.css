@@ -25,7 +25,10 @@
     background: #55ACEE;
     color: white;
   }
-
+  wrapper {
+    width: 1060px;
+    margin: 0 auto;
+}
 section {
     width: 760px;
     padding-bottom: 20px;
@@ -38,4 +41,12 @@ sidebar {
   height: 90%;
   overflow-y: scroll;
   padding-right: 17px;
+}
+header {
+  width: 255px;
+  height: 100%;
+  overflow-y: hidden;
+  float: left;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
