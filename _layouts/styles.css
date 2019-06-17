@@ -26,7 +26,16 @@
     color: white;
   }
 
-  section {
+section {
     width: 760px;
     padding-bottom: 20px;
+}
+
+sidebar {
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 90%;
+  overflow-y: scroll;
+  padding-right: 17px;
 }
