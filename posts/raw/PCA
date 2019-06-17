@@ -19,18 +19,7 @@ We can use **Principle Component Analysis (PCA)** to do this. For example, if we
 
 $$c_{ij} = <x_{i} x_{j}> \neq 0$$
 
-the goal of PCA is to transform input **x** in such a way that these pairwise correlations are eliminated.
+the goal of PCA is to transform input **x** in such a way that these pairwise correlations are eliminated. By eliminating the correlations or statistical dependencies in the inputs, the variance of the output is maximized. And, why do we care to have maximum variance? More variations mean more information can be gathered.
 
 
 [^1]: A correlation in this context refers to a linear association between two variables or how close two variables are to having a linear relationship. It is the measure of how similar two variables' deviations from their respective means is. (Ranges from -1 to 1)
-
-
-
-
-
-
-
-
-
-
-
