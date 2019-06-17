@@ -25,3 +25,8 @@
     background: #55ACEE;
     color: white;
   }
+
+  section {
+    width: 760px;
+    padding-bottom: 20px;
+}
