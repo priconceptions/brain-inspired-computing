@@ -29,13 +29,6 @@
             <li><a href="https://priyankadhulkhed.github.io/brain-inspired-computing/posts/encodeDecode.html"> <p>Encoding Inputs into a Neuron and Decoding the Outputs</p> </a></li>
             <li><a href="https://priyankadhulkhed.github.io/brain-inspired-computing/posts/pca.html"> <p>Unsupervised Learning and Principle Component Analysis</p> </a></li>
           </ol><br></br>
-          {% if site.github.is_project_page %}
-            <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-          {% endif %}
-
-          {% if site.github.is_user_page %}
-            <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-          {% endif %}
       </div>
       </header>
       <section>
@@ -51,6 +44,13 @@
           <a href="{{ site.github.owner_url }}" class="fa fa-2x fa-github"></a>
           <a href="mailto: priyanka.dhulkhed@gmail.com" class="fa fa-2x fa-envelope"></a>
         </p>
+        {% endif %}
+        {% if site.github.is_project_page %}
+          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
