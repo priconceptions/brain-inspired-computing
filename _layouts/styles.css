@@ -42,12 +42,14 @@ sidebar {
   overflow-y: scroll;
   padding-right: 17px;
 }
-ul {
-  display: block;
-  float: left;
-  clear: both;
-  padding: 0 10px;
-  list-style-type: upper-roman;
+topics {
+  list-style: none;
+  height: 70px;
+  padding: 0;
+  background: #f4f4f4;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  width: 270px;
 }
 /* header {
   width: 255px;
