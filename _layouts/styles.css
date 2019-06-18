@@ -42,7 +42,7 @@ sidebar {
   overflow-y: scroll;
   padding-right: 17px;
 }
-header ul {
+ul {
   display: block;
   float: left;
   clear: both;
